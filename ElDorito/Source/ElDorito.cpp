@@ -12,6 +12,7 @@
 #include "Server/Signaling.hpp"
 #include "Patches/Core.hpp"
 #include "Console.hpp"
+#include "Plugin/PluginManager.h"
 #include "Web/Ui/WebScoreboard.hpp"
 #include "Web/Ui/ScreenLayer.hpp"
 #include "Web/Ui/WebChat.hpp"
@@ -270,6 +271,9 @@ void ElDorito::Initialize()
 		std::string msg("Failed to load '" + mapsFolder + "string_ids.dat'!");
 		MessageBox(NULL, msg.c_str(), "", MB_OK);
 	}
+
+	//Initialize plugin manager
+	Plugin::PluginManager::Init();
 }
 
 void ElDorito::Tick()

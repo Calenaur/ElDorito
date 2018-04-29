@@ -131,6 +131,7 @@
     <ClCompile Include="Source\Patches\Ui.cpp" />
     <ClCompile Include="Source\Patches\VirtualKeyboard.cpp" />
     <ClCompile Include="Source\Patches\Weapon.cpp" />
+    <ClCompile Include="Source\Plugin\PluginManager.cpp" />
     <ClCompile Include="Source\Pointer.cpp" />
     <ClCompile Include="Source\Server\BanList.cpp" />
     <ClCompile Include="Source\Server\DedicatedServer.cpp" />
@@ -328,6 +329,7 @@
     <ClInclude Include="Source\Patches\Ui.hpp" />
     <ClInclude Include="Source\Patches\VirtualKeyboard.hpp" />
     <ClInclude Include="Source\Patches\Weapon.hpp" />
+    <ClInclude Include="Source\Plugin\PluginManager.h" />
     <ClInclude Include="Source\Pointer.hpp" />
     <ClInclude Include="Source\resource.h" />
     <ClInclude Include="Source\Server\BanList.hpp" />
